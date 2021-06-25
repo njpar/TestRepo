@@ -1,0 +1,62 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu19eg-ffve1924-1-e",
+      "name": "design_1_TEST",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "picxo_fracxo_0": ""
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_TEST_clk_wiz_0_0"
+      },
+      "picxo_fracxo_0": {
+        "vlnv": "xilinx.com:ip:picxo_fracxo:1.0",
+        "xci_name": "design_1_TEST_picxo_fracxo_0_0"
+      }
+    },
+    "nets": {
+      "picxo_fracxo_0_VSIGCE_O": {
+        "ports": [
+          "picxo_fracxo_0/VSIGCE_O",
+          "clk_wiz_0/reset"
+        ]
+      },
+      "picxo_fracxo_0_OVF_INT": {
+        "ports": [
+          "picxo_fracxo_0/OVF_INT",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "picxo_fracxo_0_VOLT_O": {
+        "ports": [
+          "picxo_fracxo_0/VOLT_O",
+          "picxo_fracxo_0/RESET_I",
+          "picxo_fracxo_0/REF_CLK_I",
+          "picxo_fracxo_0/TXOUTCLK_I",
+          "picxo_fracxo_0/RSIGCE_I",
+          "picxo_fracxo_0/VSIGCE_I",
+          "picxo_fracxo_0/ACC_STEP",
+          "picxo_fracxo_0/G1",
+          "picxo_fracxo_0/G2",
+          "picxo_fracxo_0/R",
+          "picxo_fracxo_0/V",
+          "picxo_fracxo_0/CE_DSP_RATE",
+          "picxo_fracxo_0/C_I",
+          "picxo_fracxo_0/P_I",
+          "picxo_fracxo_0/N_I",
+          "picxo_fracxo_0/OFFSET_PPM",
+          "picxo_fracxo_0/OFFSET_EN",
+          "picxo_fracxo_0/DON_I"
+        ]
+      }
+    }
+  }
+}
